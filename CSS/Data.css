@@ -1,0 +1,16 @@
+.databody{
+    padding: 15px;
+    margin: 2px;
+    background-color: rgb(241, 229, 207);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+h1 {
+    color: rgb(10, 10, 241);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+p {
+    color: rgb(59, 151, 6);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

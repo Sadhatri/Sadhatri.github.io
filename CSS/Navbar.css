@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+  .Navbar {
+    background-color: #fc5d5d;
+    overflow: auto;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .Navbar a {
+    float: right;
+    color: #faf870;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+  
+  /* Change the color of links on hover */
+  .Navbar a:hover {
+    background-color: #faf870;
+    color: #fc5d5d;
+  }
+  
+  /* Add a color to the active/current link */
+  .Navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
