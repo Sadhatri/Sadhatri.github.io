@@ -1,33 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     padding: 0px;
     margin: 0px;
 }
   .Navbar {
-    background-color: #fc5d5d;
     overflow: auto;
-    font-size: 17px;
-    font-weight: bold;
+    font-size: 20px;
+    padding-left: 20px;
   }
   
   /* Style the links inside the navigation bar */
   .Navbar a {
-    float: right;
-    color: #faf870;
+    float:left;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
 
   }
   
   /* Change the color of links on hover */
   .Navbar a:hover {
-    background-color: #faf870;
-    color: #fc5d5d;
+    background-color: #EFA3C8;
+    color:black;
   }
   
   /* Add a color to the active/current link */
   .Navbar a.active {
-    background-color: #04AA6D;
+    background-color: black;
     color: white;
+  }
+  .syspinlogo{
+    width: 150px;
+    align-items: left;
+  }
+  .syspinbrand{
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .footer{
+    background-color: #bfe2f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .footer >div {
+    margin: 10px;
+    padding: 5px;
+    
   }

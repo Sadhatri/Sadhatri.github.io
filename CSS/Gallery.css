@@ -1,0 +1,41 @@
+
+
+
+
+
+.gallery{
+    padding: 20px;
+    margin: 10px;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.gallery-img1{
+    padding: 10px;
+    background-color: bisque;
+}
+.gallery-img2{
+    padding: 10px;
+    background-color: bisque;
+}
+.gallery-img3{
+    padding: 10px;
+    background-color: bisque;
+}
+.gallery-vid{
+    padding: 25px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gallery-video{
+    border: 30px solid aquamarine;
+    border-radius: 20px;
+    background-color: bisque;
+    padding: 30px;
+    margin: 20px;
+
+}

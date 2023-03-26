@@ -1,16 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 .aboutbody{
     padding: 15px;
     margin: 2px;
-    background-color: rgb(241, 229, 207);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(252, 246, 240);
+    font-family: 'Roboto', sans-serif;
     
 }
-h1 {
-    color: rgb(10, 10, 241);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+h4 {
+    color: rgb(5, 134, 154);
+    font-family: 'Roboto', sans-serif;
+    padding: 25px;
+    padding-bottom: 0;
+    margin: 25px;
+    font-weight: bold;
+    font-size: 40px;
   }
 p {
-    color: rgb(59, 151, 6);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: 00000;
+   font-family: 'Roboto', sans-serif;
+   padding: 25px;
+   padding-top: 0;
+   margin: 25px;
 }

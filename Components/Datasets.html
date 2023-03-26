@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amulya Data</title>
+    <link rel="stylesheet" href="/CSS/Datasets.css">
+    <link rel="stylesheet" href="/CSS/Navbar.css">
+</head>
+<body>
+    
+        <div class="Navbar">
+        
+            <a href="/">Home</a>        
+            <a href="/Components/About.html">About</a>
+            <a href="/Components/Gallery.html">Gallery</a>
+            <a href="/Components/Datasets.html">Datasets</a>
+            <a href="/Components/TeamMember.html">Team Members</a>
+            <a href="/Components/ContactUs.html">Contact Us</a>  
+                
+    </div>
+<div class="datatab">
+    <!-- Tab links -->
+<div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'AUDIOM')">AUDIO MALE DATA</button>
+    <button class="tablinks" onclick="openCity(event, 'AUDIOF')">AUDIO FEMALE DATA</button>
+    <button class="tablinks" onclick="openCity(event, 'TEXTM')">TEXT MALE DATA</button>
+    <button class="tablinks" onclick="openCity(event, 'TEXTF')">TEXT FEMALE DATA</button>
+    <button class="tablinks" onclick="openCity(event, 'SAMPLEM')">SAMPLE MALE DATA</button>
+    <button class="tablinks" onclick="openCity(event, 'SAMPLEF')">SAMPLE FEMALE DATA</button>
+  </div>
+  
+  <!-- Tab content -->
+  <div id="AUDIOM" class="tabcontent">
+    <h4>AUDIO MALE DATA</h4>
+    <p>London is the capital city of England.</p>
+    <h4>What is TTS?</h4>
+    <div class="container">
+    <table class="fl-table">
+        <tbody>
+        
+        <tr>
+            <td>Type</td>
+            <td>Speech</td>
+        </tr>
+        <tr>
+            <td>Language(s)</td>
+            <td>ENGLISH</td>
+        </tr>
+        <tr>
+            <td>Linguality</td>
+            <td>Monolingual</td>
+        </tr>
+        <tr>
+            <td>Catalogue Id</td>
+            <td>ENGLISH_F</td>
+        </tr>
+        <tr>
+            <td>Data Size(HH:MM:SS)</td>
+            <td>42:49:48</td>
+        </tr>
+        <tr>
+            <td>Data Size(#Sentences)</td>
+            <td>17876</td>
+        </tr>
+                <tr>
+                    <td>Data Size(#Speakers)</td>
+                    <td>Female: 1</td>
+                    </tr>
+                <tr>
+                    <td>Annotation file availability</td>
+                    <td>YES</td>
+                    </tr>
+                    <tr>
+                        <td>Recording Specifications</td>
+                        <td>Female: 1</td>
+                        </tr>
+                    <tr>
+                        <td>Annotation file availability</td>
+                        <td>Mono channel studio quality recordings with 48kHz</td>
+                        </tr> 
+                        <tr>
+                            <td>Validation Status</td>
+                            <td>YES</td>
+                            </tr>
+                        <tr>
+                            <td>Data creator</td>
+                            <td>IISc, Bengaluru</td>
+                            </tr>
+                            <tr>
+                                <td>Year of publishing</td>
+                                <td>2023</td>
+                                </tr>
+                            <tr>
+                                <td>Suggested research purpose / areas  </td>
+                                <td>TTS</td>
+                                </tr>
+        </tbody>
+    </table> 
+    </div>
+        
+  </div>
+  
+  <div id="TEXTM" class="tabcontent">
+    <h4>TEXT MALE DATA</h4>
+    <p>Paris is the capital of France.</p>
+  </div>
+  
+  <div id="SAMPLEM" class="tabcontent">
+    <h4>SAMPLE MALE DATA</h4>
+    <p>Tokyo is the capital of Japan.</p>
+  </div>
+  <!-- Tab content -->
+  <div id="AUDIOF" class="tabcontent">
+    <h4>AUDIO FEMALE DATA</h4>
+    <p>London is the capital city of England.</p>
+    <h4>What is TTS?</h4>
+        
+  </div>
+  
+  <div id="TEXTF" class="tabcontent">
+    <h4>TEXT FEMALE DATA</h4>
+    <p>Paris is the capital of France.</p>
+  </div>
+  
+  <div id="SAMPLEF" class="tabcontent">
+    <h4>SAMPLE FEMALE DATA</h4>
+    <p>Tokyo is the capital of Japan.</p>
+  </div>
+</div>
+
+    <div class="footer">
+        <div><img src="../assests/IISc_Master_Seal_Black_Transparent.png" alt="IISc, Bengaluru"  width="150px"></div>
+        <div><h3>&copy 2023 Spirelab</h3></div>
+        <div><a href="/">Terms and Conditions</a></div>
+        <div><img src="../assests/Spire.jpg" alt="Spire logo"  width="80px"></div>
+      </div> 
+
+    
+<script>
+    function openCity(evt, cityName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+</body>
+</html>

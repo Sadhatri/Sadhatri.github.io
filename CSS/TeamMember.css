@@ -1,0 +1,63 @@
+
+
+
+
+h4{
+    color: rgb(5, 134, 154);
+    font-family: 'Roboto', sans-serif;
+    padding: 25px;
+    padding-bottom: 0;
+    margin: 25px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.team-images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Images Boxes */
+.img1, .img2, .img3, .img4, .img5{
+    padding: 20px;
+    margin: 10px;
+    background-color: aquamarine;
+}
+.img1:hover, .img2:hover, .img3:hover, .img4:hover, .img5:hover{
+    padding: 10px;
+    background-color: bisque;
+    cursor: pointer;
+}
+p{
+    color: 00000;
+    font-family: 'Roboto', sans-serif;
+    padding: 25px;
+    padding-top: 0;
+    margin: 25px;
+}
+
+#dis-img1, #dis-img2, #dis-img3, #dis-img4, #dis-img5{
+    display: none;
+}
+
+/* The Image */
+div.img img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Description of Image */
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+/* Add Responsiveness */
+.responsive {
+    padding: 0 6px;
+   
+    width: 24.99999%;
+}
+
+
